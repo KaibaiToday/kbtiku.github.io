@@ -1,0 +1,514 @@
+h1{color:#555555;line-height:130%;}
+h2{color:#555555;line-height:130%;}
+
+a{ text-decoration:none;
+font-family: simyou;
+}
+a.hover{background-color: #c9ffc9;
+color: #00CC99;
+}
+a.active{background-color: #c9ffc9;
+color: #00CC99;
+}
+.simyou28{color: #000000;font-size:28px; line-height:68px;font-weight:900;font-family: simyou;}
+.simyou26{color: #000000;font-size:26px; line-height:48px;font-weight:800;font-family: simyou;}
+
+.simyou32{color: #666666; font-size:32px; line-height:32px;font-weight:900;font-family: simyou;}
+
+.simyou42{color: #666666; font-size:42px; line-height:42px;font-weight:900;font-family: simyou;}
+.simyou22{color: #000000; font-size:22px; line-height:12px;font-weight:600;font-family: simyou;}
+
+.simyou20{color: #000000; font-size:20px; line-height:20px;font-weight:500;font-family: simyou;}
+.simyou40green{font-family:'simyou';font-size:40px;color:#37BA10;line-height:60px;font-weight:900}
+
+.simyou30green{font-family:'simyou';font-size:30px;color:#37BA10;line-height:40px;}
+
+.simyou25green{font-family:'simyou';font-size:25px;color:#37BA10}
+
+.simyou20green{font-family:'simyou';font-size:20px;color:#37BA10}
+
+.comic16green{font-family:'Comic Sans MS';font-size:16px;color:#44ff22}
+.comic16purple{font-family:'Comic Sans MS';font-size:16px;color:#8F61BD}
+
+.simhei60{font-size:60px;font-family:simhei;color:#555555;font-weight:bold;line-height:75px;}
+
+p {color:#222222; font-size:14px; line-height:8px;}
+
+input[type=radio] {
+  -ms-transform: scale(3.5); /* IE */
+  -moz-transform: scale(3.5); /* FireFox */
+  -webkit-transform: scale(3.5); /* Safari and Chrome */
+  -o-transform: scale(3.5); /* Opera */ 
+}
+
+input[type=checkbox] {
+  -ms-transform: scale(2.5); /* IE */
+  -moz-transform: scale(2.5); /* FireFox */
+  -webkit-transform: scale(2.5); /* Safari and Chrome */
+  -o-transform: scale(2.5); /* Opera */
+}
+table { 
+	border:solid #6688e3;  
+	border-width:4px 4px 4px 4px;
+	padding:5px;
+	border-collapse:collapse;
+} 
+tr{ height:1px;}
+
+th {   
+	font-size: 20px;
+	font-family: simyou;
+	color: #222222; 
+	text-decoration: none;
+	font-weight: 300;
+}
+
+
+
+td
+    { font-size: 18px;
+	  font-family: "simyou"; height:10px;
+	 line-height:28px;
+    }
+ 
+ body  {
+    	font-size: 22px;
+    	line-height:36px;
+    	font-family: "simyou";
+    	padding:0px;
+    	margin-left: 50px;
+	margin-right: 80px;
+	left:20px;
+	top:30px;
+	background-image: url(https://image.eduyun.cn:10002//data1/2020/9/22/15/50/3/f864a5b59480483e832c8ee308e93009/735cf5c31d9b4a8b576ddf422301a671.png);
+	 -webkit-text-size-adjust: none !important;
+}
+
+
+.info{font-family:'Comic Sans MS';font-size:22px;font-weight:600;background-color:#FFFFCC;border: 0px double #0000FF;outline: 4px  dotted #0000FF;}
+
+
+
+.button_white {
+	background-color: #ffffff;
+	BORDER-BOTTOM: 2pt outset #666666;BORDER-RIGHT: 2pt outset #666666;	BORDER-top: 1pt outset #666666;	BORDER-left: 1pt outset #666666;
+	font-size: 28px;font-weight:900;font-family: "simyou";color: #000000;
+	margin: 0px; 
+	padding-top:7px;padding-bottom:7px;padding-left:16px;padding-right:16px;
+    cursor:pointer;
+    line-height:100px;
+   
+    box-shadow: 5px 5px 5px #555;
+    -moz-box-shadow: 5px 5px 5px #555;
+    -webkit-box-shadow: 5px 5px 5px #555;
+}
+
+A.button_white {TEXT-DECORATION: none;
+}
+A.button_white:visited {	TEXT-DECORATION: none;color: #000000;}
+A.button_white:active {	TEXT-DECORATION: none; }
+A.button_white:hover {
+	border: thin inset;
+	color: #222222;
+	text-decoration: none;
+	background-color: #FFcccc;
+}
+ 
+.button_red {
+	background-color: #ff0000;
+	BORDER-top: 2pt inset #666666;BORDER-left: 2pt inset #666666;BORDER-bottom: 1pt inset #666666;BORDER-right: 1pt inset #666666;
+	font-size: 28px;font-weight:900;font-family: "simyou";color: #ffffff;
+	margin: 0px;
+	padding-top:7px;padding-bottom:7px;padding-left:16px;padding-right:16px;
+    cursor:pointer;
+    line-height:100px;
+    box-shadow: 5px 5px 5px #555;
+    -moz-box-shadow: 5px 5px 5px #555;
+    -webkit-box-shadow: 5px 5px 5px #555;
+	
+}
+A.button_red {	TEXT-DECORATION: none;}
+A.button_red:visited {	TEXT-DECORATION: none;}
+A.button_red:active {	TEXT-DECORATION: none; }
+A.button_red:hover {
+	text-decoration: none;
+	background-color: #FFFF00;
+}
+
+
+
+.button_ok {
+	background-color: #00ff00;
+	border: thin outset;
+	font-size: 30px;
+	font-family: "simhei";
+	color: #111111;
+	margin: 5px;
+	padding: 15px;
+	text-decoration: none;
+	line-height: 35px;
+	font-weight: bolder;
+	  cursor:pointer;
+   
+    box-shadow: 5px 5px 5px #555;
+    -moz-box-shadow: 5px 5px 5px #555;
+    -webkit-box-shadow: 5px 5px 5px #555;
+}
+A.button_ok {
+	TEXT-DECORATION: none;
+	background-color: #00ff00;
+	color: #111111;
+}
+A.button_ok:visited {
+	TEXT-DECORATION: none;
+	color: #111111;
+}
+A.button_ok:active {	TEXT-DECORATION: none; 
+                    	
+                    	
+                    	}
+A.button_ok:hover {
+	border: thin inset;
+	color: #0000FF;
+	text-decoration: none;
+	background-color: #FFFF00;
+}
+
+
+.button_grey20 {
+	background-color: #e5e1d9;
+	border: thin outset #ffffff;
+	font-size: 20px;
+	font-family: "simyou";
+	color: #111111;
+	text-align:center;
+	margin: 1px;
+	padding: 10px;
+	text-decoration: none;
+	line-height: 30px;
+	font-weight: 500;
+	 width:220px; 
+	 height:30px;
+	   cursor:pointer;
+	   
+    box-shadow: 3px 3px 3px #555;
+    -moz-box-shadow: 3px 3px 3px #555;
+    -webkit-box-shadow: 3px 3px 3px #555;
+}
+A.button_grey20 {
+	TEXT-DECORATION: none;
+
+}
+A.button_grey20:visited {
+	TEXT-DECORATION: none;
+	color: #111111;
+}
+A.button_grey20:active {	TEXT-DECORATION: none; }
+A.button_grey20:hover {
+	border: thin inset;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #ffabab;
+}
+
+
+.button_grey16 {
+	background-color: #e5e1d9;
+	border: thin outset #ffffff;
+	font-size: 16px;
+	font-family: "simyou";
+	color: #111111;
+	text-align:center;
+	margin: 1px;
+	padding: 5px;
+	text-decoration: none;
+	line-height: 26px;
+	font-weight: 500;
+	 width:80px; 
+	 height:90px;
+	   cursor:pointer;
+	  box-shadow: 3px 3px 3px #555;
+    -moz-box-shadow: 3px 3px 3px #555;
+    -webkit-box-shadow: 3px 3px 3px #555;
+}
+A.button_grey16 {
+	TEXT-DECORATION: none;
+
+}
+A.button_grey16:visited {
+	TEXT-DECORATION: none;
+	color: #111111;
+}
+A.button_grey16:active {	TEXT-DECORATION: none; }
+A.button_grey16:hover {
+	border: thin inset;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #ffabab;
+}
+
+
+
+.button_red16 {
+	background-color: #ff0000;
+	border: thin outset #ffffff;
+	font-size: 16px;
+	font-family: "simyou";
+	color: #ffffff;
+	text-align:center;
+	margin: 1px;
+	padding: 5px;
+	text-decoration: none;
+	line-height: 26px;
+	font-weight: 800;
+	 width:80px; 
+	 height:90px;
+	   cursor:pointer;
+	  box-shadow: 3px 3px 3px #555;
+    -moz-box-shadow: 3px 3px 3px #555;
+    -webkit-box-shadow: 3px 3px 3px #555;
+}
+A.button_red16 {
+	TEXT-DECORATION: none;
+
+}
+A.button_red16:visited {
+	TEXT-DECORATION: none;
+	color: #111111;
+}
+A.button_red16:active {	TEXT-DECORATION: none; }
+A.button_red16:hover {
+	border: thin inset;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #ffabab;
+}
+
+
+
+
+.button_red20 {
+	
+	background-color: #ff0000;
+	border: thin outset #ffffff;
+	font-size: 20px;
+	font-family: "simyou";
+	color: #ffffff;
+	text-align:center;
+	margin: 1px;
+	padding: 5px;
+	text-decoration: none;
+	line-height: 30px;
+	font-weight: 800;
+	 width:120px; 
+	 height:30px;
+	   cursor:pointer;
+	   
+    box-shadow: 3px 3px 3px #555;
+    -moz-box-shadow: 3px 3px 3px #555;
+    -webkit-box-shadow: 3px 3px 3px #555;
+	
+}
+A.button_red20 {
+	TEXT-DECORATION: none;
+		color: #ffffff;
+
+}
+A.button_red20:visited {
+	TEXT-DECORATION: none;
+		color: #ffffff;
+
+}
+A.button_red20:active {	TEXT-DECORATION: none; }
+A.button_red20:hover {
+	border: thin inset;
+	color: #ffffFF;
+	text-decoration: none;
+	background-color: #FFFF00;
+}
+
+
+
+.button_red20_wider {
+	
+	background-color: #ff0000;
+	border: thin outset #ffffff;
+	font-size: 20px;
+	font-family: "simyou";
+	color: #ffffff;
+	text-align:center;
+	margin: 1px;
+	padding: 5px;
+	text-decoration: none;
+	line-height: 30px;
+	font-weight: 800;
+	 width:160px; 
+	 height:30px;
+	   cursor:pointer;
+	   
+    box-shadow: 3px 3px 3px #555;
+    -moz-box-shadow: 3px 3px 3px #555;
+    -webkit-box-shadow: 3px 3px 3px #555;
+	
+}
+A.button_red20_wider {
+	TEXT-DECORATION: none;
+		color: #ffffff;
+
+}
+A.button_red20_wider:visited {
+	TEXT-DECORATION: none;
+		color: #ffffff;
+
+}
+A.button_red20_wider:active {	TEXT-DECORATION: none; }
+A.button_red20_wider:hover {
+	border: thin inset;
+	color: #ffffFF;
+	text-decoration: none;
+	background-color: #FFFF00;
+}
+
+
+
+
+
+.button_red18 {
+	
+	background-color: #ff0000;
+	border: thin outset;
+	font-size: 18px;
+	font-family: "simyou";
+	color: #ffffff;
+	text-align:center;
+	margin: 5px;
+	padding: 10px;
+	text-decoration: none;
+	line-height: 28px;
+	font-weight: 400;
+	 width:90px; 
+	
+}
+A.button_red18 {
+	TEXT-DECORATION: none;
+		color: #ffffff;
+
+}
+A.button_red18:visited {
+	TEXT-DECORATION: none;
+		color: #ffffff;
+
+}
+A.button_red18:active {	TEXT-DECORATION: none; }
+A.button_red18:hover {
+	border: thin inset;
+	color: #ffffFF;
+	text-decoration: none;
+	background-color: #FFFF00;
+}
+
+
+
+
+.button_blue20 {
+	background-color: #aaaaff;
+	border: thin outset #ffffff;
+	font-size: 20px;
+	font-family: "simyou";
+	color: #ffffff;
+	text-align:center;
+	vertical-align:middle;
+	margin: 1px;
+	padding: 8px;
+	text-decoration: none;
+	line-height: 30px;
+	font-weight: 400;
+	 width:200px; 
+	 height:90px; 
+	   cursor:pointer;
+	  box-shadow: 5px 5px 5px #555;
+    -moz-box-shadow: 5px 5px 5px #555;
+    -webkit-box-shadow: 5px 5px 5px #555;
+}
+A.button_grey20 {
+	TEXT-DECORATION: none;
+
+}
+A.button_grey20:visited {
+	TEXT-DECORATION: none;
+	color: #111111;
+}
+A.button_grey20:active {	TEXT-DECORATION: none; }
+A.button_grey20:hover {
+	border: thin inset;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #ffabab;
+}
+
+.button_orrange20 {
+	background-color: #ED8C00;
+	border: thin inset #ffffff;
+	font-size: 20px;
+	font-family: "simyou";
+	color: #ffffff;
+	text-align:center;
+	vertical-align:middle;
+	margin: 1px;
+	padding: 8px;
+	text-decoration: none;
+	line-height: 30px;
+	font-weight: 400;
+	 width:200px; 
+	 height:90px; 
+	   cursor:pointer;
+	  box-shadow: 5px 5px 5px #555;
+    -moz-box-shadow: 5px 5px 5px #555;
+    -webkit-box-shadow: 5px 5px 5px #555;
+}
+A.button_orrange20 {
+	TEXT-DECORATION: none;
+
+}
+A.button_orrange20:visited {
+	TEXT-DECORATION: none;
+	color: #111111;
+}
+A.button_orrange20:active {	TEXT-DECORATION: none; }
+A.button_orrange20:hover {
+	border: thin inset;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #ffabab;
+}
+
+
+
+.help1{position:relative;top:30%;font-family: simhei;position: fixed ! important; left: 1%;}
+
+
+.hidden1{position:relative;top:300px;font-family: simhei;position: fixed ! important; right: 10px;z-index:9900;}
+.fix_go{position:relative;bottom:10%;font-family: simhei;position: fixed ! important; right: 10%;}
+.fix_tip{position:relative;bottom:50%;top:50%;font-family: simhei;position: fixed ! important; right: 10%;}
+.fix_ok{position:relative;top:5%;font-family: simhei;position: fixed ! important; right: 1%;}
+.fix_up_left{position:relative;top:1%;font-family: simhei;position: fixed ! important; left: 1%;}
+
+.fix_pw{position:relative;bottom:1%;font-family: simhei;position: fixed ! important; left:1%;}
+.pw{
+font-size:30px;
+	border: 1px;
+	border-style:dashed;
+	border:#CCCCCC;
+	color:#bbbbbb;
+	font-weight:100;
+	 background-color:transparent;
+}
+
+.defen{
+
+line-height:250%
+line-height:600px;
+
+color:#ffffff;
+text-align: center;
+text-shadow: 0 0 10px #aaaaff,0 0 20px #aaaaff,0 0 30px #aaaaff,0 0 40px #aaaaff;}
